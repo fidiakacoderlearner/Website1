@@ -1,0 +1,105 @@
+*, 
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+nav{
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 15rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300px;
+    border-bottom: 1px solid rgba(255, 68, 0, 0)
+}
+
+nav div img {
+    width: 60px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid orangered;
+    color: orangered;
+}
+
+.content{
+    gap: 100px;
+    height: 75vh;
+    padding: 3rem 15rem;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+}
+
+.content-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.content-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    line-height: 2;
+}
+
+.p1 {
+    font-size: 22px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.p2 {
+    font-size: 22px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.p3 {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.p4 {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+} 
+
+.footer {
+    padding: 2rem 15rem;
+    background-color: #333;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 12vh;
+}
